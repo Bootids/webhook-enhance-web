@@ -1,0 +1,33 @@
+{
+  "defaultSeverity": "warning",
+  "extends": [
+    "tslint:recommended",
+    "tslint-react",
+    "tslint-config-prettier"
+  ],
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.js",
+      "node_modules",
+      "coverage/lcov-report/*.js",
+      "src/asserts/fonts/**.js"
+    ]
+  },
+  "rules": {
+    "quotemark": [false, "double"],
+    "indent": [true, "spaces", 2],
+    "interface-name": false,
+    "ordered-imports": false,
+    "object-literal-sort-keys": false,
+    "no-consecutive-blank-lines": false,
+    "no-console": false,
+    "trailing-comma": false,
+    "no-debugger": false,
+    "jsdoc-format": false,
+    "jsx-no-lambda": false,
+    "no-var-requires": false,
+    "max-classes-per-file": false,
+    "no-var-keyword": false,
+    "jsx-no-bind": false
+  }
+}
